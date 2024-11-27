@@ -515,14 +515,14 @@
                         <version>2.1</version>
                     </plugin>
                 </plugins>
-            </reporting>
-        </profile>
-    </profiles>
-   <distributionManagement>
+		    <distributionManagement>
     <repository>
         <id>central</id>
         <name>a0nefhmalf6hc-artifactory-primary-0-releases</name>
         <url>https://trialy4un1n.jfrog.io/artifactory/addbook-libs-release</url>
     </repository>
 </distributionManagement>
+            </reporting>
+        </profile>
+    </profiles>
 </project>
