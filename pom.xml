@@ -521,8 +521,8 @@
    <distributionManagement>
     <repository>
         <id>central</id>
-        <name>xxx</name>
-        <url>xx</url>
+        <name>a0nefhmalf6hc-artifactory-primary-0-releases</name>
+        <url>https://trialy4un1n.jfrog.io/artifactory/addbook-libs-release</url>
     </repository>
 </distributionManagement>
 </project>
