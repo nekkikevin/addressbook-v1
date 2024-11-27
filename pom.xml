@@ -195,9 +195,12 @@
             </execution>
          </executions>
       </plugin>
-  
-
-			
+		<plugin>
+	     <groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-war-plugin</artifactId>
+			<version>3.5.2</version>
+		</plugin>
+  	
 						<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
