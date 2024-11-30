@@ -1,56 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.2.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <servers>
-    <server>
-      <username>kiran.9.kevin@gmail.com</username>
-      <password>cmVmdGtuOjAxOjE3NjQyNjE5NTE6aGRlUVV4N0YzN0tYdEFjbXNwUEs1bUxhNXBi</password>
-      <id>central</id>
-    </server>
-    <server>
-      <username>kiran.9.kevin@gmail.com</username>
-      <password>cmVmdGtuOjAxOjE3NjQyNjE5NTE6aGRlUVV4N0YzN0tYdEFjbXNwUEs1bUxhNXBi</password>
-      <id>snapshots</id>
-    </server>
-  </servers>
-  <profiles>
-    <profile>
-      <repositories>
-        <repository>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <id>central</id>
-          <name>addbook-libs-release</name>
-          <url>https://trialy4un1n.jfrog.io/artifactory/addbook-libs-release</url>
-        </repository>
-        <repository>
-          <snapshots />
-          <id>snapshots</id>
-          <name>addbook-libs-snapshot</name>
-          <url>https://trialy4un1n.jfrog.io/artifactory/addbook-libs-snapshot</url>
-        </repository>
-      </repositories>
-      <pluginRepositories>
-        <pluginRepository>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <id>central</id>
-          <name>addbook-libs-release</name>
-          <url>https://trialy4un1n.jfrog.io/artifactory/addbook-libs-release</url>
-        </pluginRepository>
-        <pluginRepository>
-          <snapshots />
-          <id>snapshots</id>
-          <name>addbook-libs-snapshot</name>
-          <url>https://trialy4un1n.jfrog.io/artifactory/addbook-libs-snapshot</url>
-        </pluginRepository>
-      </pluginRepositories>
-      <id>artifactory</id>
-    </profile>
-  </profiles>
-  <activeProfiles>
-    <activeProfile>artifactory</activeProfile>
-  </activeProfiles>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd">
+<servers>
+<server>
+<username>mediriteblr.kiran@gmail.com</username>
+<password>cmVmdGtuOjAxOjE3NjQ0MzI1NDM6bzZFb3NVbFFHS0ppdllhMkwyZEFLTE1nUEc1</password>
+<id>central</id>
+</server>
+<server>
+<username>mediriteblr.kiran@gmail.com</username>
+<password>cmVmdGtuOjAxOjE3NjQ0MzI1NDM6bzZFb3NVbFFHS0ppdllhMkwyZEFLTE1nUEc1</password>
+<id>snapshots</id>
+</server>
+</servers>
+<profiles>
+<profile>
+<repositories>
+<repository>
+<snapshots>
+<enabled>false</enabled>
+</snapshots>
+<id>central</id>
+<name>aptindia-libs-release</name>
+<url>https://trialp3v70a.jfrog.io/artifactory/aptindia-libs-release</url>
+</repository>
+<repository>
+<snapshots/>
+<id>snapshots</id>
+<name>aptindia-libs-snapshot</name>
+<url>https://trialp3v70a.jfrog.io/artifactory/aptindia-libs-snapshot</url>
+</repository>
+</repositories>
+<pluginRepositories>
+<pluginRepository>
+<snapshots>
+<enabled>false</enabled>
+</snapshots>
+<id>central</id>
+<name>aptindia-libs-release</name>
+<url>https://trialp3v70a.jfrog.io/artifactory/aptindia-libs-release</url>
+</pluginRepository>
+<pluginRepository>
+<snapshots/>
+<id>snapshots</id>
+<name>aptindia-libs-snapshot</name>
+<url>https://trialp3v70a.jfrog.io/artifactory/aptindia-libs-snapshot</url>
+</pluginRepository>
+</pluginRepositories>
+<id>artifactory</id>
+</profile>
+</profiles>
+<activeProfiles>
+<activeProfile>artifactory</activeProfile>
+</activeProfiles>
 </settings>
