@@ -521,8 +521,8 @@
 	<distributionManagement>
     <repository>
         <id>central</id>
-        <name>a0nefhmalf6hc-artifactory-primary-0-releases</name>
-        <url>https://trialy4un1n.jfrog.io/artifactory/addbook-libs-release</url>
+        <name>a0d4bzah0tbow-artifactory-primary-0-releases</name>
+        <url>https://trialp3v70a.jfrog.io/artifactory/aptindia-libs-release</url>
     </repository>
 </distributionManagement>
 </project>
