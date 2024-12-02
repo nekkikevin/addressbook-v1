@@ -51,6 +51,14 @@ pipeline {
             
         }
         stage('Package') {
+            input{
+                message "Select the platform for deployment"
+                ok "Platfor selected"
+                parameters{
+                    choice(name:'NEWAPP',choices['JFROG','EC2'])
+                }
+            }
+
             steps {
                 script{
                     echo "packaging the code"
