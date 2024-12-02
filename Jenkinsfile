@@ -14,7 +14,7 @@ pipeline {
                 script{
                     echo "Compiling the code"
                     echo "Compiling in ${params.Env}"
-                    //sh "mvn compile"
+                    sh "mvn compile"
                 }
                 
             }
