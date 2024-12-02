@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools{
-        maven "mymvn"
+        maven "apache-maven-3.9.9"
     }
 
     parameters {
