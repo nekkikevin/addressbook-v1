@@ -1,9 +1,6 @@
 pipeline {
     agent any
 
-    tools{
-        maven "apache-maven-3.9.9"
-    }
 
     parameters {
         string(name: 'Env', defaultValue: 'Test', description: 'Environment to deploy')
