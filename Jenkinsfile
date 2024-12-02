@@ -59,7 +59,7 @@ pipeline {
             
         }
         stage('Package') {
-            agent {label 'linux_slave'}
+            //agent {label 'linux_slave'}
             input{
                 message "Select the platform for deployment"
                 ok "Platform selected"
