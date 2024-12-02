@@ -19,6 +19,12 @@ pipeline {
             
         }
         stage('CodeReview') {
+
+            when{
+                expression{
+                    params.executeTests == true
+                }
+            }
             steps {
                 script{
                     echo "Code Review Using pmd plugin"
