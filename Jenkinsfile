@@ -12,6 +12,7 @@ pipeline {
             steps {
                 script{
                     echo "Compiling the code"
+                    echo "Compiling in ${params.Env}"
                 }
                 
             }
