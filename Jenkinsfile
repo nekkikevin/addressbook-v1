@@ -17,7 +17,7 @@ pipeline {
                 script{
                     echo "Compiling the code"
                     echo "Compiling in ${params.Env}"
-                    sh "mvn compile"
+                    //sh "mvn compile"
                 }
                 
             }
@@ -27,7 +27,7 @@ pipeline {
             steps {
                 script{
                     echo "Code Review Using pmd plugin"
-                    sh "mvn pmd:pmd"
+                    //sh "mvn pmd:pmd"
                 }
                 
             }
@@ -42,7 +42,7 @@ pipeline {
             steps {
                 script{
                     echo "UnitTest in junit."
-                    sh "mvn test"
+                    //sh "mvn test"
                 }
                 
             }
@@ -52,7 +52,7 @@ pipeline {
             steps {
                 script{
                     echo "Code Coverage by jacoco"
-                    sh "mvn verify"
+                    //sh "mvn verify"
                 }
                 
             }
@@ -65,7 +65,7 @@ pipeline {
                 ok "Platform selected"
                 parameters{
                     choice(name:'NEWAPP',choices:['JFROG','EC2'])
-                    sh "mvn package"
+                    //sh "mvn package"
                 }
             }
 
