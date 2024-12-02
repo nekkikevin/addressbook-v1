@@ -53,9 +53,9 @@ pipeline {
         stage('Package') {
             input{
                 message "Select the platform for deployment"
-                ok "Platfor selected"
+                ok "Platform selected"
                 parameters{
-                    choice(name:'NEWAPP',choices['JFROG','EC2'])
+                    choice(name:'NEWAPP',choices:['JFROG','EC2'])
                 }
             }
 
