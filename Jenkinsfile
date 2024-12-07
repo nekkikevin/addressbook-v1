@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools{
+        maven "mymaven"
+    }
+
 
     parameters {
         string(name: 'Env', defaultValue: 'Test', description: 'Environment to deploy')
