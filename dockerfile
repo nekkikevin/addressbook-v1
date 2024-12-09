@@ -12,15 +12,19 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
+//set the workking directory
 Workdir /app    
 
+//copy the .pom ./src and ./settings.xml files from local host(ec2 to tomcat server)
 copy ./pom.xml  ./pom.xml
 copy ./src      ./src
 copy ./settings.xml  ./settings.xml
 
+//run the mvn package which also runs compile, build and other stages
 Run mvn package
 Run mvn -U deploy -s settings.xml
 
+//this commmand will be run inside the container where the .war will be copied from /app/target/ --> /usr/local/tomcat/webapps
 Run cp /app/target/addressbook.war /usr/local/tomcat/webapps
 
 Expose 8080
